@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="no.mattilsynet.demo.coroutines.CoroutinesDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-23T05:44:06" hostname="Kristoffers-MacBook-Pro.local" time="0.379">
+  <properties/>
+  <testcase name="contextLoads()" classname="no.mattilsynet.demo.coroutines.CoroutinesDemoApplicationTests" time="0.379"/>
+  <system-out><![CDATA[07:44:06.060 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [no.mattilsynet.demo.coroutines.CoroutinesDemoApplicationTests]: CoroutinesDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:44:06.096 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration no.mattilsynet.demo.coroutines.CoroutinesDemoApplication for test class no.mattilsynet.demo.coroutines.CoroutinesDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-10-23T07:44:06.231+02:00  INFO 59059 --- [    Test worker] n.m.d.c.CoroutinesDemoApplicationTests   : Starting CoroutinesDemoApplicationTests using Java 17.0.8.1 with PID 59059 (started by kmysen in /Users/kmysen/repos/coroutines-demo)
+2023-10-23T07:44:06.232+02:00  INFO 59059 --- [    Test worker] n.m.d.c.CoroutinesDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T07:44:06.783+02:00  INFO 59059 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-23T07:44:06.808+02:00  INFO 59059 --- [    Test worker] n.m.d.c.CoroutinesDemoApplicationTests   : Started CoroutinesDemoApplicationTests in 0.669 seconds (process running for 1.13)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
